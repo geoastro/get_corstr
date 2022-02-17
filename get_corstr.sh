@@ -27,7 +27,6 @@ fi
 urlbase="https://www.harita.gov.tr/public/sunum/zaman_serileri_rar/mb_"
 ext=".rar"
 
-
 function download_stationData() {
 
  wget $urlbase$1$ext
